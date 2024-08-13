@@ -4,7 +4,7 @@ import 'dotenv/config';
 
 
 const app = express(); // create a new app
-const port = 3000; // change this to run the app on a different port - usually a 4 digit number
+const port = 3030; // change this to run the app on a different port - usually a 4 digit number
 
 // parse requests of content-type - application/json (needed for POST and PUT requests using req.body)
 app.use(express.json());
